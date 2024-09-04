@@ -15,6 +15,7 @@ public class App
     {
         try
         {
+            /* Un autre test */
             JpaUtil jpaUtil = new JpaUtil();
             Customer customer = new Customer(1,"James");
             jpaUtil.insertEntity(customer);
