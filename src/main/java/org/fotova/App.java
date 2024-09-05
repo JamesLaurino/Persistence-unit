@@ -15,7 +15,7 @@ public class App
     {
         try
         {
-            /* ecore un autre test */
+            /* cci est le dernier test */
             JpaUtil jpaUtil = new JpaUtil();
             Customer customer = new Customer(1,"James");
             jpaUtil.insertEntity(customer);
